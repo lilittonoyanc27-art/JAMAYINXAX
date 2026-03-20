@@ -191,7 +191,6 @@ export default function TimeGame() {
             </div>
             <div>
               <h1 className="text-2xl font-black uppercase tracking-tight leading-none">ԺԱՄԱՆԱԿԻ ՄԵՔԵՆԱ</h1>
-              <span className="text-[10px] font-bold text-cyan-400 uppercase tracking-[0.3em]">Իսպաներեն երեխաների համար</span>
             </div>
           </div>
           
@@ -376,7 +375,12 @@ export default function TimeGame() {
         </div>
       </main>
 
-     
+      <footer className="text-center mt-12">
+        <div className="flex items-center justify-center gap-2 text-slate-700 font-black uppercase tracking-[0.5em] text-[10px]">
+          <Sparkles className="w-4 h-4" />
+          <Sparkles className="w-4 h-4" />
+        </div>
+      </footer>
     </div>
   );
 }
