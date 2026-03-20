@@ -376,13 +376,7 @@ export default function TimeGame() {
         </div>
       </main>
 
-      <footer className="text-center mt-12">
-        <div className="flex items-center justify-center gap-2 text-slate-700 font-black uppercase tracking-[0.5em] text-[10px]">
-          <Sparkles className="w-4 h-4" />
-          ԳԱՅԱՆԵԻ ՀԱՄԱՐ
-          <Sparkles className="w-4 h-4" />
-        </div>
-      </footer>
+     
     </div>
   );
 }
